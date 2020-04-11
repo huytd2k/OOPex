@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc223a67-c650-4949-9888-7a45c8b9321b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aOXYALutcvvTOF6ushyA99MODc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="OOPEx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="773" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1586617761018">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state x="773" y="210" key="#com.intellij.ide.util.MemberChooser/0.22.1920.994@0.22.1920.994" timestamp="1586617761018" />
+    <state width="1379" height="706" key="GridCell.Tab.0.bottom" timestamp="1586627128571">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="706" key="GridCell.Tab.0.bottom/0.22.1920.994@0.22.1920.994" timestamp="1586627128571" />
+    <state width="1379" height="706" key="GridCell.Tab.0.center" timestamp="1586627128570">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="706" key="GridCell.Tab.0.center/0.22.1920.994@0.22.1920.994" timestamp="1586627128570" />
+    <state width="1379" height="706" key="GridCell.Tab.0.left" timestamp="1586627128569">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="706" key="GridCell.Tab.0.left/0.22.1920.994@0.22.1920.994" timestamp="1586627128569" />
+    <state width="1379" height="706" key="GridCell.Tab.0.right" timestamp="1586627128570">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="706" key="GridCell.Tab.0.right/0.22.1920.994@0.22.1920.994" timestamp="1586627128570" />
+    <state width="1379" height="298" key="GridCell.Tab.1.bottom" timestamp="1586625761357">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="298" key="GridCell.Tab.1.bottom/0.22.1920.994@0.22.1920.994" timestamp="1586625761357" />
+    <state width="1379" height="298" key="GridCell.Tab.1.center" timestamp="1586625761356">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="298" key="GridCell.Tab.1.center/0.22.1920.994@0.22.1920.994" timestamp="1586625761356" />
+    <state width="1379" height="298" key="GridCell.Tab.1.left" timestamp="1586625761355">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="298" key="GridCell.Tab.1.left/0.22.1920.994@0.22.1920.994" timestamp="1586625761355" />
+    <state width="1379" height="298" key="GridCell.Tab.1.right" timestamp="1586625761356">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state width="1379" height="298" key="GridCell.Tab.1.right/0.22.1920.994@0.22.1920.994" timestamp="1586625761356" />
+    <state x="375" y="301" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586625688448">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state x="375" y="301" width="873" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.22.1920.994@0.22.1920.994" timestamp="1586625688448" />
+    <state x="635" y="232" width="600" height="729" key="find.popup" timestamp="1586626220450">
+      <screen x="0" y="22" width="1920" height="994" />
+    </state>
+    <state x="635" y="232" width="600" height="729" key="find.popup/0.22.1920.994@0.22.1920.994" timestamp="1586626220450" />
+  </component>
+</project>
