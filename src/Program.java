@@ -20,40 +20,26 @@ public class Program {
                     break;
                 }
                 case 3: {
-                    System.out.println("Id :");
-                    int id = 0;
-                    try {
-                        id = sc.nextInt();
-                    }catch(Exception exp) {
-                        System.out.println("Invalid option!");
+                    System.out.println("Id or title:");
+                    String query = sc.nextLine();
+                    if(tryParseInt(query) != -1) {
+                        int q = tryParseInt(query);
+                        Program.library.findBook(q);
                         showMenu();
+                        break;
                     }
-                    Program.library.findBook(id);
+                    Program.library.findBook(query);
                     showMenu();
                     break;
                 }
                 case 4: {
-                    System.out.println("Id :");
-                    int id = 0;
-                    try {
-                        id = sc.nextInt();
-                    }catch(Exception exp) {
-                        System.out.println("Invalid option!");
-                        showMenu();
-                    }
+                    int id = askId();
                     Program.library.borrowBook(id);
                     showMenu();
                     break;
                 }
                 case 5: {
-                    System.out.println("Id :");
-                    int id = 0;
-                    try {
-                        id = sc.nextInt();
-                    }catch(Exception exp) {
-                        System.out.println("Invalid option!");
-                        showMenu();
-                    }
+                    int id = askId();
                     Program.library.returnBook(id);
                     showMenu();
                     break;
@@ -95,6 +81,25 @@ public class Program {
         }
         Program.setOption(opt);
         return;
+    }
+
+    public static int askId() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter book'id:");
+        int opt = 0;
+        try {
+            opt = scanner.nextInt();
+        }catch(Exception exp) {
+            System.out.println("Invalid option!");
+        }
+        return opt;
+    }
+    public static int tryParseInt(String i) {
+        try {
+            return Integer.parseInt(i);
+        } catch (Exception e) {
+            return -1;
+        }
     }
 
     public static int getOption() {

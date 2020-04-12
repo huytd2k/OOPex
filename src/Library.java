@@ -42,7 +42,11 @@ public class Library {
         int amountOfBook = sc.nextInt();
         sc.nextLine();
         Book newBook = new Book(bookId,bookTitle,amountOfBook);
-        this.bookList.add(newBook);
+        if (this.numberOfBooks + amountOfBook > this.MAX_NUMBER_OF_BOOKS) {
+            System.out.println("Books exceeded max number!");
+        } else {
+            this.bookList.add(newBook);
+        }
     }
 
     public boolean findBook(int bookID) {
@@ -83,10 +87,10 @@ public class Library {
                 foundBook.add(eachBook);
             }
         }
-        int foundNumber = foundBook.size();
-        System.out.println("Found"+foundNumber+"book(s):");
-        for(int i = 0; i<= foundNumber; i++) {
-            System.out.println(i+". "+foundBook.get(i).getBookTitle());
+        int foundNumber = foundBook.size() ;
+        System.out.println("Found "+foundNumber+" book(s):");
+        for(int i = 0; i< foundNumber; i++) {
+            System.out.println(i+1+". "+foundBook.get(i).getBookTitle());
         }
     }
     public Book getALuckyBook() {
