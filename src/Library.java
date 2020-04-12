@@ -45,6 +45,7 @@ public class Library {
         if (this.numberOfBooks + amountOfBook > this.MAX_NUMBER_OF_BOOKS) {
             System.out.println("Books exceeded max number!");
         } else {
+            this.numberOfBooks += amountOfBook;
             this.bookList.add(newBook);
         }
     }
