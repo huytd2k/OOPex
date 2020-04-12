@@ -1,2 +1,2 @@
 # OOPe
-My OOP exercise: Console Library Man
+My OOP exercise: Console Library Manager
